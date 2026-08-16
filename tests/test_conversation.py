@@ -23,7 +23,7 @@ from src.conversation import (
 
 def test_make_user_message_has_correct_role_and_content():
     msg = make_user_message("What is a RAG pipeline?")
-    assert msg["role"] == "user"
+    assert msg["role"] == "wrong_role"
     assert msg["content"] == "What is a RAG pipeline?"
     assert "time" in msg
 
