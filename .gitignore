@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# pytest
+.pytest_cache/
+
+# ChromaDB local data
+chroma_db/
+
+# Data folder (your test documents — optional, remove this line if you want to track sample data)
+data/
+extracted_images/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

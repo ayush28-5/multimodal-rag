@@ -1,0 +1,35 @@
+# ===== Core Framework =====
+streamlit
+
+# ===== Document Parsing =====
+PyMuPDF
+pdfplumber
+python-docx
+python-pptx
+openpyxl
+beautifulsoup4
+markdown
+Pillow
+
+# ===== Vector Store + Embeddings =====
+chromadb
+
+# ===== LLM Orchestration =====
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+ollama
+
+# ===== Vision-Language Model (Florence-2) =====
+transformers
+torch
+accelerate
+sentencepiece
+einops
+timm
+huggingface_hub
+
+# ===== Utilities =====
+requests
+tqdm
